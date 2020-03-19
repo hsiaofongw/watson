@@ -45,7 +45,7 @@ https://www.google.com/s2/favicons?domain=www.google.com
 To get a site's description
 
 ```
-watson getDescription
+watson getDescription https://www.google.com/
 ```
 
 then the output will be
