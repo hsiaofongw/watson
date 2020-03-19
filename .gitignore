@@ -1,0 +1,5 @@
+build/
+dist/
+getsitemap.spec main.spec
+Pipfile*
+*.spec
