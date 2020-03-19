@@ -56,6 +56,10 @@ Search the world's information, including webpages, images, videos and more. Goo
 
 and so on...
 
+## Installation
+
+T.B.D..
+
 ## Currently
 
 Still under development.
