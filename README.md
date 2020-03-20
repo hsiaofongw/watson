@@ -56,6 +56,26 @@ Search the world's information, including webpages, images, videos and more. Goo
 
 and so on...
 
+## ApplicationProgrammingInterface
+
+Say that We are trying to get a website's title, that's how we do:
+
+In Python3:
+
+```
+from webmeta.meta impport WebSiteMetaDataObject
+from webmeta.event import WebSiteMetaDataChangeEvent
+
+def onConnected(eventObject: WebSiteMetaDataChangeEvent):
+    print("connected")
+    print("title: "+eventObject.target.getTitle())
+
+dealer: WebSiteMetaDataObject = WebSiteMetaDataObject()
+dealer.connect("https://www.google.com")
+dealer.on("connected", lambda eventObject: onConnected(eventObject) )
+
+```
+
 ## Installation
 
 T.B.D..
