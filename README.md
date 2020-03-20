@@ -54,6 +54,25 @@ then the output will be
 Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.
 ```
 
+To see the summary
+
+```
+watson getSummary https://www.example.com/
+```
+
+then the output will be
+
+```
+WebSiteSummaryGeneratedByWatson
+===============================
+Title: some title
+Description: some description
+LastModified: last modified datetime
+Author: name of author
+Email: email of author
+===============================
+```
+
 and so on...
 
 ## ApplicationProgrammingInterface
